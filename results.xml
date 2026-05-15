@@ -1,0 +1,62 @@
+<testsuites id="" name="" tests="3" failures="1" skipped="0" errors="0" time="18.199900000000003">
+<testsuite name="Day 7\locators.spec.ts" timestamp="2026-04-09T09:28:00.234Z" hostname="chromium" tests="3" failures="1" skipped="0" time="22.044" errors="0">
+<testcase name="locators " classname="Day 7\locators.spec.ts" time="7.724">
+<system-out>
+<![CDATA[Login successful
+
+[[ATTACHMENT|test-results\Day 7-locators-locators--chromium\video.webm]]
+
+[[ATTACHMENT|test-results\Day 7-locators-locators--chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="locators 2" classname="Day 7\locators.spec.ts" time="6.459">
+<properties>
+<property name="fail" value="">
+</property>
+</properties>
+<failure message="locators.spec.ts:14:6 locators 2" type="FAILURE">
+<![CDATA[  [chromium] › Day 7\locators.spec.ts:14:6 › locators 2 ────────────────────────────────────────────
+
+    Expected to fail, but passed.
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\Day 7-locators-locators-2-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\Day 7-locators-locators-2-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\Day 7-locators-locators-2-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace "..\test-results\Day 7-locators-locators-2-chromium\trace.zip"
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[Login successful
+
+[[ATTACHMENT|test-results\Day 7-locators-locators-2-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Day 7-locators-locators-2-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\Day 7-locators-locators-2-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="locators 3" classname="Day 7\locators.spec.ts" time="7.861">
+<system-out>
+<![CDATA[Login successful
+
+[[ATTACHMENT|test-results\Day 7-locators-locators-3-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\Day 7-locators-locators-3-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

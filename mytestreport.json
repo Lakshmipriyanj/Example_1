@@ -1,0 +1,246 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\2404997\\OneDrive - Cognizant\\Desktop\\March 11 PW\\playwright.config.ts",
+    "rootDir": "C:/Users/2404997/OneDrive - Cognizant/Desktop/March 11 PW/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 3
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/2404997/OneDrive - Cognizant/Desktop/March 11 PW/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/2404997/OneDrive - Cognizant/Desktop/March 11 PW/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json",
+        {
+          "outputFile": "mytestreport.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "Day 7\\locators.spec.ts",
+      "file": "Day 7/locators.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "locators ",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6558,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Login successful\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-04-09T09:26:09.793Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\2404997\\OneDrive - Cognizant\\Desktop\\March 11 PW\\test-results\\Day 7-locators-locators--chromium\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\2404997\\OneDrive - Cognizant\\Desktop\\March 11 PW\\test-results\\Day 7-locators-locators--chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "27e2e7ea14072c943bf4-ee7b89e78174b646e641",
+          "file": "Day 7/locators.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "locators 2",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "fail",
+                  "location": {
+                    "file": "C:\\Users\\2404997\\OneDrive - Cognizant\\Desktop\\March 11 PW\\tests\\Day 7\\locators.spec.ts",
+                    "line": 14,
+                    "column": 6
+                  }
+                }
+              ],
+              "expectedStatus": "failed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6989,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Login successful\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-04-09T09:26:09.068Z",
+                  "annotations": [
+                    {
+                      "type": "fail",
+                      "location": {
+                        "file": "C:\\Users\\2404997\\OneDrive - Cognizant\\Desktop\\March 11 PW\\tests\\Day 7\\locators.spec.ts",
+                        "line": 14,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\2404997\\OneDrive - Cognizant\\Desktop\\March 11 PW\\test-results\\Day 7-locators-locators-2-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\2404997\\OneDrive - Cognizant\\Desktop\\March 11 PW\\test-results\\Day 7-locators-locators-2-chromium\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\2404997\\OneDrive - Cognizant\\Desktop\\March 11 PW\\test-results\\Day 7-locators-locators-2-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "27e2e7ea14072c943bf4-750e049765bc1944f59d",
+          "file": "Day 7/locators.spec.ts",
+          "line": 14,
+          "column": 6
+        },
+        {
+          "title": "locators 3",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 7071,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Login successful\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-04-09T09:26:09.051Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\2404997\\OneDrive - Cognizant\\Desktop\\March 11 PW\\test-results\\Day 7-locators-locators-3-chromium\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\2404997\\OneDrive - Cognizant\\Desktop\\March 11 PW\\test-results\\Day 7-locators-locators-3-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "27e2e7ea14072c943bf4-467642ab47416af47dde",
+          "file": "Day 7/locators.spec.ts",
+          "line": 23,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-04-09T09:26:02.338Z",
+    "duration": 17471.697,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}
